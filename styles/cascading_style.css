@@ -12,6 +12,7 @@
     border: none;
     border-radius: 5px;
     padding: 20px 25px;
+    cursor: pointer;
 }
 /* non-common section  */
 .font-open-sense {
@@ -60,6 +61,13 @@
 }
 .fail-content .img-content {
     color: #F15B2220;
+    
+}
+.circle{
+    width: 30px;
+    border-radius: 50%;
+    background: #F15B22;
+    position: absolute;
 }
 .fail-content .text-content h3{
     font-size: 40px;
@@ -89,4 +97,99 @@
   top: 0;
   color: #16D887;
   font-weight: bold;
+}
+.plan-content{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 131px;
+}
+.plan-content .skill-content-plan {
+    display: flex;
+    justify-content: space-between;
+}
+.plan-content .text-content-plan h3{
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+.skill-content-plan .skill-card h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.skill-content-plan .skill-card p{
+    color: #737272;
+}
+.content-box {
+    height: 300px;
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../images/watch.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 131px;
+    border-radius: 8px;
+}
+.content-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Gradient logic: Left (solid orange) to Right (transparent) */
+    background: linear-gradient(to right, rgba(231, 76, 30, 0.9) 10%, rgba(231, 76, 30, 0.4) 60%, transparent 100%);
+    z-index: 1;
+}
+.content-box .text-content-watch{
+    max-width: 460px;
+    margin: 60px;
+    z-index: 2;
+}
+.content-box .text-content-watch h3{
+    font-size: 40px;
+    position: relative;
+    color: white;
+    /* z-index: 2; */
+    margin-bottom: 24px;
+}
+.content-box .text-content-watch .btn {
+    color: #F15B22;
+    background-color: white;
+}
+footer{
+    background-color: #151414;
+}
+.footer-content {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0 67px 0;
+}
+.footer-content  .footer-text h3{
+    font-size: 45px;
+    color: #f8f8f8;
+    margin-bottom: 16px;
+}
+.footer-content  .footer-text p{
+    max-width: 485px;
+    color: white;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.footer-logo img{
+    margin-right: 17px;
+}
+.footer-form h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
 }
