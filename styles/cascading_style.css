@@ -158,7 +158,7 @@
     /* z-index: 2; */
     margin-bottom: 24px;
 }
-.content-box .text-content-watch .btn {
+.content-box .text-content-watch .btn  , .footer-content .footer-form .btn{
     color: #F15B22;
     background-color: white;
 }
@@ -192,4 +192,18 @@ footer{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 31px;
+}
+.footer-content .footer-form form input[type="email"]{
+    width: 325px;
+    padding: 12px 15px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    background-color: #151414;
+    border-radius: 5px;
+    color: white;
+    
+}
+input::placeholder {
+    color: white;
+    opacity: 1;
 }
