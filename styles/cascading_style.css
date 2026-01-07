@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common section  */
+.btn{
+    color: #ffffff;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+/* non-common section  */
+.font-open-sense {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.hero{
+    height: 100vh;
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 225px;
+    margin-bottom: 131px;
+}
+.hero-content{
+    max-width: 525px;
+    text-align: right;
+}
+.hero-content h1{
+    text-align: right;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+.hero-content p{
+    padding-left: 70px;
+    text-align: right;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
