@@ -5,6 +5,8 @@
 }
 /* common section  */
 .btn{
+    font-size: 20px;
+    font-weight: 600;
     color: #ffffff;
     background-color: #F15B22;
     border: none;
@@ -25,7 +27,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 225px;
+    padding-right: 200px;
     margin-bottom: 131px;
 }
 .hero-content{
@@ -38,8 +40,53 @@
     margin-bottom: 24px;
 }
 .hero-content p{
+    color: #444343;
     padding-left: 70px;
     text-align: right;
     line-height: 26px;
     margin-bottom: 32px;
+}
+
+.fail-content{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+    margin-bottom: 131px;
+}
+.fail-content .img-content {
+    color: #F15B2220;
+}
+.fail-content .text-content h3{
+    font-size: 40px;
+    margin: 0px 128px 24px 0px;
+}
+.fail-content .text-content p{
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.fail-content .text-content .check-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fail-content .text-content .check-list li{
+    position: relative;
+    /* margin-bottom: 8px; */
+    line-height: 26px;
+    color: #444343;
+    padding-left: 20px;
+}
+.check-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #16D887;
+  font-weight: bold;
 }
